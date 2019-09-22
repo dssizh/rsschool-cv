@@ -1,0 +1,122 @@
+table {
+  padding-left: 10px;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  text-align: right;
+}
+
+ul {
+  padding-inline-start: 15px;
+}
+
+p {
+  text-indent: 25px;
+}
+
+img {
+  float: right
+}
+
+header {
+  background-color: rgba(42, 56, 190, 0.445);
+}
+
+.grid {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  width: 1024px;
+  grid-template: 150px min-content repeat(5, 25px minmax(50px, min-content)) / 12% 78%;
+  align-content: space-between;
+}
+
+.gray {
+  background-color: rgba(207, 207, 207, 0.233);
+}
+
+.name table {
+  width: 100%;
+}
+
+h1.name {
+  font-size: 35px;
+}
+
+header.name {
+  background-color: white;
+}
+
+header .description {
+  padding: 0px 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+header.name {
+  grid-area: 1 / 1 / span 1 / span 2;
+}
+
+.photo {
+  grid-area: 1 / 2 / span 1 / span 1;
+}
+
+article.personal {
+  grid-area: 2 / 1 / span 1 / span 2;
+}
+
+header.summary {
+  grid-area: 3 / 1 / span 1 / span 2;
+}
+
+article.summary {
+  grid-area: 4 / 2 / span 1 / span 1;
+}
+
+header.skills {
+  grid-area: 5 / 1 / span 1 / span 2;
+}
+
+article.skills {
+  grid-area: 6 / 2 / span 1 / span 1;
+}
+
+header.code {
+  grid-area: 7 / 1 / span 1 / span 2;
+}
+
+article.code {
+  grid-area: 8 / 2 / span 1 / span 1;
+}
+
+header.experience {
+  grid-area: 9 / 1 / span 1 / span 2;
+}
+
+article.experience {
+  grid-area: 10 / 2 / span 1 / span 1;
+}
+
+header.education {
+  grid-area: 11 / 1 / span 1 / span 2;
+}
+
+article.education {
+  grid-area: 12 / 2 / span 1 / span 1;
+}
+
+header.english {
+  grid-area: 13 / 1 / span 1 / span 2;
+}
+
+article.english {
+  grid-area: 14 / 2 / span 1 / span 1;
+}
+
