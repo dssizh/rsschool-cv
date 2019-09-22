@@ -24,6 +24,15 @@ I have 15+ years of experience working as an IT specialist. I worked as a 1C sof
 
 ### **CODE EXAMPLES**
 ***
+```
+function checkBag() {
+        var itemsObject = JSON.parse(localStorage.getItem("sp_bag"));
+        if (itemsObject != null) {
+            bag.itemsInBag = JSON.parse(localStorage.getItem("sp_bag"));        
+            bag.updateBagCounter();
+        }        
+    }
+```
 You can find some of my educational projects [here](https://bitbucket.org/sutyginds/).
 
 
